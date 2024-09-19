@@ -15,13 +15,13 @@ importers:
       '@types/markdown-it': ^13.0.0
       '@types/react': ^18.0.0
       '@types/react-dom': ^18.0.0
-      '@visactor/openinula-vtable': workspace:*
-      '@visactor/react-vtable': workspace:*
+      '@visactor/openinula-vtable': workspace:1.7.8-alpha.4
+      '@visactor/react-vtable': workspace:1.7.8-alpha.4
       '@visactor/vchart': 1.12.1
-      '@visactor/vtable': workspace:*
-      '@visactor/vtable-editors': workspace:*
-      '@visactor/vtable-export': workspace:*
-      '@visactor/vtable-search': workspace:*
+      '@visactor/vtable': workspace:1.7.8-alpha.4
+      '@visactor/vtable-editors': workspace:1.7.8-alpha.4
+      '@visactor/vtable-export': workspace:1.7.8-alpha.4
+      '@visactor/vtable-search': workspace:1.7.8-alpha.4
       '@visactor/vutils': ~0.18.14
       '@vitejs/plugin-react': 3.1.0
       axios: ^1.4.0
@@ -94,7 +94,7 @@ importers:
       '@types/node': '*'
       '@types/offscreencanvas': 2019.6.4
       '@visactor/vchart': 1.12.1
-      '@visactor/vtable': workspace:*
+      '@visactor/vtable': workspace:1.7.8-alpha.4
       '@visactor/vutils': ~0.18.14
       axios: ^1.4.0
       chai: 4.3.4
@@ -184,7 +184,7 @@ importers:
       '@types/react-is': ^17.0.3
       '@types/react-reconciler': 0.28.8
       '@visactor/vchart': 1.12.1
-      '@visactor/vtable': workspace:*
+      '@visactor/vtable': workspace:1.7.8-alpha.4
       '@visactor/vutils': ~0.18.14
       '@vitejs/plugin-react': 3.1.0
       axios: ^1.4.0
@@ -290,7 +290,7 @@ importers:
       '@visactor/vrender-core': 0.20.2-alpha.1
       '@visactor/vrender-kits': 0.20.2-alpha.1
       '@visactor/vscale': ~0.18.1
-      '@visactor/vtable-editors': workspace:*
+      '@visactor/vtable-editors': workspace:1.7.8-alpha.4
       '@visactor/vutils': ~0.18.14
       '@visactor/vutils-extension': ~1.11.5
       '@vitejs/plugin-react': 3.1.0
@@ -455,7 +455,7 @@ importers:
       '@types/react-dom': ^18.0.0
       '@types/react-is': ^17.0.3
       '@visactor/vchart': 1.12.1
-      '@visactor/vtable': workspace:*
+      '@visactor/vtable': workspace:1.7.8-alpha.4
       '@visactor/vutils': ~0.18.14
       '@vitejs/plugin-react': 3.1.0
       axios: ^1.4.0
@@ -558,8 +558,8 @@ importers:
       '@types/react-dom': ^18.0.0
       '@visactor/vdataset': ~0.18.1
       '@visactor/vscale': ~0.18.1
-      '@visactor/vtable': workspace:*
-      '@visactor/vtable-editors': workspace:*
+      '@visactor/vtable': workspace:1.7.8-alpha.4
+      '@visactor/vtable-editors': workspace:1.7.8-alpha.4
       '@visactor/vutils': ~0.18.14
       '@vitejs/plugin-react': 3.1.0
       axios: ^1.4.0
@@ -672,7 +672,7 @@ importers:
       '@types/react-dom': ^18.0.0
       '@types/react-is': ^17.0.3
       '@visactor/vchart': 1.12.1
-      '@visactor/vtable': workspace:*
+      '@visactor/vtable': workspace:1.7.8-alpha.4
       '@visactor/vutils': ~0.18.14
       '@vitejs/plugin-react': 3.1.0
       axios: ^1.4.0
@@ -788,9 +788,9 @@ importers:
       '@rushstack/eslint-patch': ~1.1.4
       '@types/node': '*'
       '@types/node-fetch': 2.6.4
-      '@visactor/vtable': workspace:*
-      '@visactor/vtable-editors': workspace:*
-      '@visactor/vtable-gantt': workspace:*
+      '@visactor/vtable': workspace:1.7.8-alpha.4
+      '@visactor/vtable-editors': workspace:1.7.8-alpha.4
+      '@visactor/vtable-gantt': workspace:1.7.8-alpha.4
       cross-env: ^7.0.3
       eslint: ~8.18.0
       form-data: ~4.0.0
@@ -7271,7 +7271,7 @@ packages:
     resolution: {integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==}
     engines: {node: '>= 4.0'}
     os: [darwin]
-    deprecated: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
+    deprecated: Upgrade to fsevents v2 to mitigate potential security issues
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
